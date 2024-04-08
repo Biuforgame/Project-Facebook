@@ -1,0 +1,298 @@
+/* barra horizontal */
+
+.scroll div{
+    width: 200px;
+    padding: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+
+.scroll{
+    position: relative;
+    color: #0a0a23;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+    margin: 0;
+    padding: 13px;
+    width: max-content;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    background-color: rgb(86, 86, 114);
+    transition: all 3s ease;
+}
+
+.oinciwe div span{
+    padding: 0;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    gap: 3px;
+}
+
+span{
+    margin-top: 20px;
+}
+
+.oinciwe{
+    padding: 0;
+    width: 300px;
+    height: 30%;
+    display: table-cell;
+}
+
+.oinciwe span{
+    justify-items: flex-start;
+}
+
+img, a{
+    font-size: 2rem;
+    width: 2rem;
+    text-decoration: none;
+    color: #e9e4e4df;
+    margin-right: 0;
+}
+
+.div-cotainer-friends, #div-cotainer-friends{
+    color: #c2b5b5;
+    transition: all 2s ease;
+}
+
+.div-cotainer-friends, #div-cotainer-friends:hover{
+    transition: all 1s ease;
+    color: gray;
+    font: 700;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.div-hijo-archivado, #div-hijo-archivado{
+    color: #c2b5b5;
+    transition: all 2s ease;
+}
+
+.div-hijo-archivado, #div-hijo-archivado:hover{
+    color: rgb(2, 2, 68);
+    transition: all 1s ease;
+    font: 700;
+    font-size: 1rem;
+}
+
+.div-hijo-guardado, #div-hijo-guardado{
+    color: #c2b5b5;
+    transition: all 1s ease;
+}
+
+.div-hijo-guardado, #div-hijo-guardado:hover{
+    transition: all 1s ease;
+    font: 700;
+    color: violet;
+    font-size: 1rem;
+}
+
+.div-hijo-group, #div-hijo-group{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.div-hijo-group, #div-hijo-group:hover{
+    color: red;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-anuncios, #div-hijo-anuncios{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.div-hijo-anuncios, #div-hijo-anuncios:hover{
+    color: green;
+    transition: all 1s ease;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-clime, #div-hijo-clime{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.div-hijo-clime, #div-hijo-clime:hover{
+    color:  #000;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.div-hijo-event, #div-hijo-event{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.div-hijo-event, #div-hijo-event:hover{
+    color: aquamarine;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-movie, #div-hijo-movie{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.div-hijo-movie, #div-hijo-movie:hover{
+    transition: all 1s ease;
+    color: royalblue;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-joystick, #div-hijo-joystick{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.div-hijo-joystick, #div-hijo-joystick:hover{
+    transition: all 1s ease;
+    color: red;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.div-hijo-menseger, #div-hijo-menseger{
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    color: #c2b5b5;
+    cursor: pointer;
+}
+
+.div-hijo-menseger, #div-hijo-menseger:hover{
+    transition: all 1s ease;
+    color: brown;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-kids, #div-hijo-kids{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.div-hijo-kids, #div-hijo-kids:hover{
+    transition: all 1s ease;
+    color: mintcream;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-flag, #div-hijo-flag{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.div-hijo-flag, #div-hijo-flag:hover{
+    transition: all 1s ease;
+    color: mintcream;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-credit_card, #div-hijo-credit_card{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.div-hijo-credit_card, #div-hijo-credit_card:hover{
+    transition: all 1s ease;
+    color: mintcream;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-currency_exchange, #div-hijo-currency_exchange{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.div-hijo-currency_exchange, #div-hijo-currency_exchange:hover{
+    transition: all 1s ease;
+    color: mintcream;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.div-hijo-stadia_controller, #div-hijo-stadia_controller{
+    color: #c2b5b5;
+    transition: all 1s ease;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    align-items: center;
+}
+
+.div-hijo-stadia_controller, #div-hijo-stadia_controller:hover{
+    transition: all 1s ease;
+    color: mintcream;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    font-size: 1rem;
+}

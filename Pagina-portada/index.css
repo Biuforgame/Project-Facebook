@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+}
+
+header{
+    margin: 10px;
+}
+
+body{
+    background: #0a0a23;       
+}
+
+#okk{
+color: rgb(82, 82, 252);
+font-family: 'Inter', sans-serif;
+}
+
+#h_t{
+    color: #606770;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 4px;
+    position: relative;
+    bottom: 20px;
+}
+
+aside{
+    background: #fff;
+    width: 170px;
+    height: 54px;
+    position: relative;
+    top: 11pc;
+    border-radius: 0px 0px 8px 8px;
+}
+
+h2{
+    color: rgb(204, 2, 69);
+}
+
+h1, h2, h6{
+    line-height: 2pc;
+}
+
+#okmo, #h_t, img {
+    font-weight: 400;
+    margin-top: 3pc;
+    position: relative;
+    margin-bottom: -21px
+}
+
+#-te-PP{
+    text-decoration: none;
+}
+
+#hseis-sie{
+    font-size: small;
+    color: #1877f2;
+    font-family: "Wix Madefor Display", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: bold;
+    margin: 1pc;
+    display: block;
+    letter-spacing: 1px;
+}
+
+#okmo{
+    color: #333;
+    font-family: 'Onest', sans-serif;
+}   
+
+#mini_O {
+    margin-top: 129px;
+    margin-left: 728px;
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    border: #e8d8d8;
+    width: 357px;
+    text-align: center;
+    box-shadow: 0px 4px 10px -6px black;
+}
+
+#elnombredeesto{
+    width: 14pc;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    background: #1877f2;
+    font-family: "DM Sans", sans-serif;
+    position: relative;
+    border-radius: 3px;
+    color: #fff;
+    font-size: large;
+    display: flex;
+    text-align: center;
+}
+
+input.input, .paraescribir {
+padding: 15px;
+font-size: 17px;
+border-radius: 5px;
+border: 2px solid #e8d8d8;
+margin-top: 10px;
+position: relative;
+bottom: 0.7pc;
+right: 10px;
+width: 341px;
+}
+
+#hseis_sie{
+background: #1877f2;
+font-size: 17px;
+}
+
+.header-div{
+    position: absolute;
+    left: 10pc;
+    line-height: 2pc;
+    font-size: 1.4rem;
+
+}
+
+button{
+    Padding: 7px 13px;
+    Background: #36a420;
+    Border: #36a420;
+    Line-height: 33px;
+    Border-radius: 3px;
+    Position: relative;
+    margin-bottom: 1pc;
+    margin-top: 2pc;
+    font-size: 1.1rem;
+    width: 19pc;
+}
+
+#iedasclasras{
+text-decoration: none;
+color: #fff;
+}
+
+footer {
+text-align: center;
+margin-left: 727px;
+width: 400px;
+}
+
+#eselid{
+    font-family: 'Kantumruy Pro', sans-serif;
+    color: #fff;
+    margin-top: 2pc;
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: small;
+    margin-bottom: 2pc;
+}
+
+.esotrocanal_opliui{
+width: 220px;
+}
+
+.esotrocanal_opliui{
+position: absolute;
+border-radius: 8px 8px 0px 0px;
+width: 170px;
+border: none;
+}
+
+span{
+    font-weight: 400;
+}
+
+.per{
+    color: #000;
+    text-align: center;
+    line-height: 3pc;
+    font-family: "Archivo", sans-serif;
+    font-weight: 300;
+}

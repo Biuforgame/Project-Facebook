@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+}
+
+#div-png{
+    position: relative;
+}
+
+img[src="./img perfil.png"]{
+    border-radius: 20px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    border: 3px solid #fff
+}
+
+@media (max-width: 700) {
+    #section-1{
+        background: #222;
+    }
+}
+
+#section-1{
+    display: flex;
+    box-sizing: content-box;
+    position: relative;
+    grid-row-end: span;
+    align-items: flex-start;
+    margin: 0;
+    box-sizing: content-box;
+    padding: 2px 20px;
+    justify-content: space-between;
+}
+
+#section-1 section{
+    justify-content: flex-end;
+    width: max-content;
+    position: relative;
+}
+
+.container-padre-logo, #container-hermano-logo{
+    flex-direction: column-reverse;
+    display: flex;
+    padding: 10px;
+    margin: 0;
+    justify-content: space-between;
+}
+
+#container-hermano-logo, .container-padre-logo{
+    position: absolute;
+    width: max-content;
+    height: max-content;
+    left: 0;
+    bottom: 14vh;
+    justify-content: space-around;
+}
+
+#container-hijo-logo, #container-hermano-logo{
+    padding: 4px;
+    margin: 4px;
+    position: absolute;
+    cursor: pointer;
+    right: 7vh;
+}
+.container-padre, .container-hermano, #container-hijos{
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container-padre, .container-hermano{
+    justify-content:    center;
+    margin-left: auto;
+}
+
+aside #perfil-estado, .publicar, .option{
+    display: flex;
+    margin-top: 20px;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+}
+
+#perfil-estado, .publicar, .option aside{
+    display: block;
+    position: relative;
+
+}
+
+.container-padre aside{
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+#container-abuelos, .container-padre{
+    display: block;
+    flex-direction: row-reverse;
+    position: absolute;
+}
+
+#container-abuelos, .container-padre, #perfil-estado{
+    justify-content: flex-end;
+    display: block;
+    margin-left: auto;
+    align-items: center;
+    align-content: center;
+}
+
+#container-abuelos, .container-padre, #perfil-estado > aside{
+    justify-content: flex-end;
+    width: max-content;
+}
+
+#container-abuelos{
+    position: absolute;
+    left: 19pc;
+    margin-top: 4pc;
+}
+
+#container-hermano{
+    /* background-color: #0a0a23; */
+    width: max-content;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: scroll;
+    overflow-x: hidden;
+}
+
+aside #logo-de-facebook{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 70px;
+    width: 30px;
+}
+
+aside{
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    right: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#logo-de-facebook{
+    width: 300px;
+    background-color: blue;
+    align-items: center;
+    padding: 3px;
+    gap: 30px;
+}
+
+input[name="buscador"]{
+    margin: 1px;
+    width: 300px;
+    letter-spacing: 1.1px;
+    border-radius: 70px;
+    border: none;
+    padding: 12px 49px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#container-aside-hermano{
+    overflow-x: hidden;
+    width: 20px;
+}
+
+input[name="buscador"]:hover{
+    font: 300;
+    font-size: 1rem;
+    transition: all 1s ease;
+    background-color: #29292eb7;
+    cursor: pointer;
+}
+
+aside#perfil-estado{
+    margin-left: 10px;
+    padding: 10px;
+    z-index: hidden;
+}
+
+#perfil-estado{
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: max-content;
+    background-color: #e8e8e809;
+}
+
+img[alt="img-estado"]{
+    margin: 4px;
+    width: 170px;
+    height: max-content;
+    border-radius: 10px;
+    border: transparent;
+}
+
+img[alt="img-input"]{
+    border-radius: 70px;
+    margin: 2px;
+    padding: 2px;
+    width: 40px;
+    letter-spacing: 10px;
+    margin: 10px;
+}
+
+#input-list{
+    display: flex;
+    position: block;
+    padding: 1rem;
+}
+
+.publicar{
+    background-color: #29292eb7;
+    width: 495px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    align-items: center;
+    border-radius: 7px;
+}
+
+input[name="input-public"]{
+    width: 1300px;
+    padding: 9px 0;
+    align-items: center;    
+    justify-content: center;
+    border-radius: 7px;
+    font-family: "Archivo", sans-serif;
+    border: none;
+    border-radius: 70px;
+    text-align: center;
+    font-size: larger;
+}
+
+.option, .publicar, #perfil-estado{
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.option aside i{
+    position: relative;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    margin-right: 23px;
+    font-style: normal;
+    font-size: large;
+    color: grey;
+    display: flex;
+}
+
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/v1iF2605Cb5.png"],
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/a6OjkIIE-R0.png"],
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/yMDS19UDsWe.png"] img i .option{
+    position: relative;
+}
+
+div
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/v1iF2605Cb5.png"],
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/a6OjkIIE-R0.png"],
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/yMDS19UDsWe.png"]{
+    align-items: center;
+    justify-self: center;
+    display: flex;
+}
+
+aside {
+    width: 30px;
+}
+
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/v1iF2605Cb5.png"],
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/a6OjkIIE-R0.png"],
+img[src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/yMDS19UDsWe.png"], div{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+}

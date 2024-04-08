@@ -1,0 +1,48 @@
+.hr{
+    Position: absolute;
+    Cursor: pointer;
+    Display: table;
+    left: 65pc;
+    top: 4pc;
+    background-color: #7676ff3f;
+    padding: 10px;
+    height: 20px;
+    width: 210px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+h2{ 
+    margin-right: auto;
+    font-weight: 300;
+    font-size: small;
+    font-family: "Popins", sans-serif;
+    width: max-content;
+    margin-top: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+h5{
+    display: flex;
+    color: #acabab;
+    font-weight: 400;
+    font-size: small;   
+    margin-bottom: 20px;
+}
+
+#promocion, #campaign{
+    display:inline-block;
+    align-items: center;
+    font-size: small;
+}
+
+#account_circle, #c{
+    font-size: small;
+    display: inline-block;
+    align-items: center;
+    width: 200px;
+}
+
+
+

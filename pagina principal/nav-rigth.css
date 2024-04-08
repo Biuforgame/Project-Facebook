@@ -1,0 +1,17 @@
+.navbar-two{
+    padding: 0 7pc;
+    margin-top: auto;
+    outline: gray;
+    gap: 30px;
+    margin-left: 14pc;
+    font-size: 1rem;
+    letter-spacing: 4pc;
+    background-color: #05055a72;
+}
+
+.navbar-two:hover{
+    transition: all 1s ease;
+    font-size: 3rem;
+    border-radius: 10px;
+    border: 1px solid aliceblue;
+}
